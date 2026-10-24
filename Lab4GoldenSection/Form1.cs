@@ -5,7 +5,7 @@ using System.Globalization;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 
-namespace GoldenSection {
+namespace Lab4GoldenSection {
   public partial class Form1 : Form {
     private const double PHI = 0.6180339887498948482;
     private string _formula = "";

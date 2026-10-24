@@ -2,7 +2,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace GoldenSection {
+namespace Lab4GoldenSection {
   internal static class Program {
     [STAThread]
     static void Main() {

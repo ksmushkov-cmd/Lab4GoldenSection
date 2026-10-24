@@ -1,4 +1,4 @@
-﻿namespace GoldenSection {
+﻿namespace Lab4GoldenSection {
   partial class Form1 {
     private System.ComponentModel.IContainer components = null;
     private System.Windows.Forms.MenuStrip menuStrip1;
