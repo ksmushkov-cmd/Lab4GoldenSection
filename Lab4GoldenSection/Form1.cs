@@ -22,7 +22,7 @@ namespace Lab4GoldenSection {
 
       chart1.Series.Clear();
       var s = new Series("f(x)") {
-        СhartType = SeriesChartType.Line,
+        ChartType = SeriesChartType.Line,
         BorderWidth = 2,
         Color = Color.SteelBlue,
         XValueType = ChartValueType.Double,
@@ -257,7 +257,7 @@ namespace Lab4GoldenSection {
         MarkPoint(ex.x, ex.y, ex.isMin ? "min" : "max", ex.isMin ? Color.Red : Color.Green);
 
       lblStatus.ForeColor = Color.Green;
-      blStatus.Text = $"Найдено экстремумов: {extrema.Count}";
+      lblStatus.Text = $"Найдено экстремумов: {extrema.Count}";
 
       var sb = new System.Text.StringBuilder();
       sb.AppendLine("Локальные экстремумы:");
